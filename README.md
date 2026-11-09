@@ -11,11 +11,20 @@ source 'https://github.com/qiyukf/QYSDK_specs.git'
 source 'https://cdn.cocoapods.org/'
 ```
 
-然后按需集成：
+然后在以下三种方式中按需选择一种，不要同时声明：
 
 ```ruby
+# 国内版本
 pod 'QY_iOS_SDK', '~> 11.13.0'
+```
+
+```ruby
+# 海外版本
 pod 'QY_iOS_SDK/Abroad', '~> 11.13.0'
+```
+
+```ruby
+# 视频客服版本
 pod 'QY_iOS_SDK/Video', '~> 11.13.0'
 ```
 
